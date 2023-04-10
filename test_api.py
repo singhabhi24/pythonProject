@@ -43,7 +43,7 @@ def setData():
     obj.set_gpsis(r['gpsis'])
     print(obj.get_gpsis())
     success = obj.get_gpsis()
-    return jsonify({'data': success})
+    return jsonify({'Which value have set in the backend i.e:': success})
 
 
 class StudentEncoder(JSONEncoder):
