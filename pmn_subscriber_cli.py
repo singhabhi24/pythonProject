@@ -225,6 +225,7 @@ def create_parser():
         cmd.add_argument("--dnn_ambr_ul", help="Dnn's uplink ambr")
         cmd.add_argument("--dnn_ambr_dl", help="Dnn's downlink ambr")
         cmd.add_argument("--qos_profile_5qi", help="Dnn's 5qi profile")
+        cmd.add_argument("--sqn", help="Sqn Number")
 
 
 # Add function callbacks
